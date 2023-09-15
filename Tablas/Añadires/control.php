@@ -77,9 +77,24 @@ class Control
         return $orden;
     }
 
-    function Vista()
+    function addPr()
     {
-        
+        $id = $_POST["id"];
+        $nombre = $_POST["nombre"];
+
+
+        $orden = "INSERT INTO tipos_procesadores (id, nombre) VALUES ('$id', '$nombre')";
+        return $orden;
+    }
+
+    function addForm()
+    {
+        $id = $_POST["id"];
+        $nombre = $_POST["nombre"];
+
+
+        $orden = "INSERT INTO factores_forma (id, nombre) VALUES ('$id', '$nombre')";
+        return $orden;
     }
 }
 

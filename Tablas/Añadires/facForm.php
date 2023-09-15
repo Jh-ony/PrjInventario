@@ -8,7 +8,7 @@ include_once "control.php";
     $conexion = new Conexion();
     $ctrl = new Control();
     $con = $conexion->conectar();
-    $sql = $ctrl->addPr();
+    $sql = $ctrl->addForm();
     
     $respuesta= mysqli_query($con, $sql);
 
@@ -18,5 +18,5 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: tiProcesador.html");
+        header ("Location: facForm.html");
     }

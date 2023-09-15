@@ -12,13 +12,13 @@
             <table>
                 
                 <tr>
-                    <td><li><a href="index.php">Inicio</a></li></td>
+                    <td><li><a href="equipos.php">Equipos</a></li></td>
                     
                 </tr>
                 <tr>
                     <td><li><a href="pcs.php">PCs</a></li></td>
                 </tr>
-                <tr>
+               <!--<tr>
                     <td><li><a href="libros.php">Añadir libros</a></li></td>
                 </tr>
                 <tr>
@@ -32,12 +32,18 @@
                 </tr>
                 <tr>
                     <td><li><a href="idiomas.php">Idiomas Disponibles</a></li></td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td><li><a href="estado.php">Estado</a></li></td>
                 </tr>
                 <tr>
                     <td><li><a href="SO.php">Sistemas Operativos</a></li></td>
+                </tr>
+                <tr>
+                    <td><li><a href="tiProcesador.php">Tipos de Procesadores</a></li></td>
+                </tr>
+                <tr>
+                    <td><li><a href="facForm.php">Factores de Forma</a></li></td>
                 </tr>
             </table>
         </div>

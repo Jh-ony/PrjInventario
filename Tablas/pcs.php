@@ -106,7 +106,7 @@ if (isset($_POST["eliminar"])) {
         <label for="idFactorForma">ID Factor de Forma:</label>
         <input type="text" id="idFactorForma" name="idFactorForma"><br><br>
 
-        <label for="detallesFactorForma">ID Factor de Forma:</label>
+        <label for="detallesFactorForma">Detalles del Factor de Forma:</label>
         <input type="text" id="detallesFactorForma" name="detallesFactorForma"><br><br>
 
         <label for="observaciones">Observaciones:</label>
