@@ -96,5 +96,47 @@ class Control
         $orden = "INSERT INTO factores_forma (id, nombre) VALUES ('$id', '$nombre')";
         return $orden;
     }
+
+    function addEquipo()
+    {
+        $id = $_POST["id"];
+        $idModelo = $_POST["idModelo"];
+        $feCompra = $_POST["feCompra"];
+        $coPat = $_POST["coPat"];
+        $color = $_POST["color"];
+        $observaciones = $_POST["observaciones"];
+        $foto = $_POST["foto"];
+        $vaCompra = $_POST["vaCompra"];
+        $nPecosa = $_POST["nPecosa"];
+        $orCompra = $_POST["orCompra"];
+        $dimension = $_POST["dimension"];
+
+
+        $orden = "INSERT INTO equipos (id, idModelo, fechaCompra, codigoPatrimonial, color, obesrvaciones, foto, valorCompra, numeroPECOSA, numeroOC, dimensiones) 
+                    VALUES ('$id', '$idModelo', '$feCompra', '$coPat', '$color', '$observaciones', '$foto', '$vaCompra', '$nPecosa', '$orCompra', '$dimension')";
+        return $orden;
+    }
+
+    function addModelo()
+    {
+        $id = $_POST["id"];
+        $nombre = $_POST["nombre"];
+        $detalles = $_POST["detalles"];
+        $idMarca = $_POST["idMarca"];
+
+
+        $orden = "INSERT INTO modelos (id, nombre, detalles, idMarca) VALUES ('$id', '$nombre', '$detalles', '$idMarca')";
+        return $orden;
+    }
+
+    function addMarca()
+    {
+        $id = $_POST["id"];
+        $nombre = $_POST["nombre"];
+
+
+        $orden = "INSERT INTO marca (id, nombre) VALUES ('$id', '$nombre')";
+        return $orden;
+    }
 }
 

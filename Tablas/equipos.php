@@ -19,7 +19,7 @@ $respuesta= mysqli_query($con, $sql);
 
     <div>
         <h1>Equipos</h1>
-        <h3>Presione <a href="Añadires/facForm.html">Aqui</a> Para añadir equipos</h3>
+        <h3>Presione <a href="Añadires/equipos.html">Aqui</a> Para añadir equipos</h3>
         <div>
         <table>
             <tr>

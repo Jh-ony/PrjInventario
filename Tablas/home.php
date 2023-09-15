@@ -12,8 +12,10 @@
             <table>
                 
                 <tr>
+                    <td><li><a href="modelos.php">Modelos</a></li></td>
+                </tr>
+                <tr>
                     <td><li><a href="equipos.php">Equipos</a></li></td>
-                    
                 </tr>
                 <tr>
                     <td><li><a href="pcs.php">PCs</a></li></td>
