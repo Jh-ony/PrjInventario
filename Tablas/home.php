@@ -10,7 +10,9 @@
     <ul>
         <div>
             <table>
-                
+                <tr>
+                    <td><li><a href="marcas.php">Marcas</a></li></td>
+                </tr>
                 <tr>
                     <td><li><a href="modelos.php">Modelos</a></li></td>
                 </tr>

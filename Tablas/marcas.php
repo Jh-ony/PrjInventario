@@ -19,7 +19,7 @@ $respuesta= mysqli_query($con, $sql);
 
     <div>
         <h1>Marcas</h1>
-        <h3>Presione <a href="Añadires/marca.html">aqui</a> para añadir marcas</h3>
+        <h3>Presione <a href="Añadires/marcas.html">aqui</a> para añadir marcas</h3>
         <div>
         <table>
             <tr>

@@ -18,7 +18,7 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: ../equipos.html");
+        header ("Location: equipos.html");
     }
 ?>
         </div>

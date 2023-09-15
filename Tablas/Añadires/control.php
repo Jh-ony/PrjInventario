@@ -112,7 +112,7 @@ class Control
         $dimension = $_POST["dimension"];
 
 
-        $orden = "INSERT INTO equipos (id, idModelo, fechaCompra, codigoPatrimonial, color, obesrvaciones, foto, valorCompra, numeroPECOSA, numeroOC, dimensiones) 
+        $orden = "INSERT INTO equipos (id, idModelo, fechaCompra, codigoPatrimonial, color, observaciones, foto, valorCompra, numeroPECOSA, numeroOC, dimensiones) 
                     VALUES ('$id', '$idModelo', '$feCompra', '$coPat', '$color', '$observaciones', '$foto', '$vaCompra', '$nPecosa', '$orCompra', '$dimension')";
         return $orden;
     }
@@ -135,7 +135,7 @@ class Control
         $nombre = $_POST["nombre"];
 
 
-        $orden = "INSERT INTO marca (id, nombre) VALUES ('$id', '$nombre')";
+        $orden = "INSERT INTO marcas (id, nombre) VALUES ('$id', '$nombre')";
         return $orden;
     }
 }
