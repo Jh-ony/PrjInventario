@@ -1,63 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Navegación en mi sitio web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="CSS/CSS.css">-->
+    <title>Inventario</title>
 </head>
+
+
 <body>
-    <h1>Bienvenido al Inventario</h1>
+    
+    <header id="arriba">
+        <h1 id="titulo">Inventario</h1>
+    </header>
     <h3>Empieza a explorar/editar</h3>
 
-    <ul>
-        <div>
-            <table>
-                <tr>
-                    <td><li><a href="marcas.php">Marcas</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="modelos.php">Modelos</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="equipos.php">Equipos</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="pcs.php">PCs</a></li></td>
-                </tr>
-               <!--<tr>
-                    <td><li><a href="libros.php">Añadir libros</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="asigbienes.php">Asig</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="ciudad.php">Ciudad</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="editoriales.php">Editorial</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="idiomas.php">Idiomas Disponibles</a></li></td>
-                </tr> -->
-                <tr>
-                    <td><li><a href="estado.php">Estado</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="SO.php">Sistemas Operativos</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="tiProcesador.php">Tipos de Procesadores</a></li></td>
-                </tr>
-                <tr>
-                    <td><li><a href="facForm.php">Factores de Forma</a></li></td>
-                </tr>
-            </table>
+    
+        <div class="contenido">
+            
+                <div id="caja">
+                    <a id="letras" href="Vistas/marcas.php">Marcas</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="Vistas/modelos.php">Modelos</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="Vistas/equipos.php">Equipos</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="Vistas/pcs.php">PCs</a>
+                </div>
+               <!--<div id="caja">
+                    <a id="letras" href="libros.php">Añadir libros</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="asigbienes.php">Asig</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="ciudad.php">Ciudad</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="editoriales.php">Editorial</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="idiomas.php">Idiomas Disponibles</a>
+                </div> -->
+                <div id="caja">
+                    <a id="letras" href="Vistas/estado.php">Estado</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="Vistas/SO.php">Sistemas Operativos</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="Vistas/tiProcesador.php">Tipos de Procesadores</a>
+                </div>
+                <div id="caja">
+                    <a id="letras" href="Vistas/facForm.php">Factores de Forma</a>
+                </div>
+            
         </div>
 
-        <a class=button href="../index.php">Regresar</a>
-    </ul>
+        <a class=button id=retroceder href="../index.php">Volvere al Inicio</a>
+    
 
-    <?php
+    <!--<?php
     // Aquí puedes agregar el contenido dinámico de tu página PHP
-    ?>
+    ?>-->
 
 </body>
 </html>

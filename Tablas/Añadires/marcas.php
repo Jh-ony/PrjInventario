@@ -18,5 +18,5 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: marcas.html");
+        header ("Location: ../Vistas/marcas.php");
     }

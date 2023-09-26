@@ -18,5 +18,5 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: estado.html");
+        header ("Location: ../Vistas/estado.php");
     }

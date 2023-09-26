@@ -1,9 +1,9 @@
 <?php
 
-include_once "conexion.php";
+include_once "../conexion.php";
 $conexion = new Conexion();
 $con = $conexion->conectar();
-$sql = "SELECT * from marcas";
+$sql = "SELECT * from factores_forma";
 $respuesta= mysqli_query($con, $sql);
 
 ?>
@@ -13,13 +13,13 @@ $respuesta= mysqli_query($con, $sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informacion de marcas</title>
+    <title>Factores de forma</title>
 </head>
 <body>
 
     <div>
-        <h1>Marcas</h1>
-        <h3>Presione <a href="Añadires/marcas.html">aqui</a> para añadir marcas</h3>
+        <h1>Factores de Forma</h1>
+        <h3>Tamaños<a href="../Añadires/facForm.html">Añadir Factor de forma</a></h3>
         <div>
         <table>
             <tr>
@@ -41,7 +41,7 @@ $respuesta= mysqli_query($con, $sql);
     </div>
 
     </div>
-    <div><a href="home.php" class=btn>Regresar</a></div>
+    <div><a href="../home.php" class=btn>Regresar</a></div>
     
 </body>
 </html>

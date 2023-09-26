@@ -18,5 +18,5 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: facForm.html");
+        header ("Location: ../Vistas/facForm.php");
     }

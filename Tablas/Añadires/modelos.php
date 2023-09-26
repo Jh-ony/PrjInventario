@@ -18,5 +18,5 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: modelos.html");
+        header ("Location: ../Vistas/modelos.php");
     }

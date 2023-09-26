@@ -18,5 +18,5 @@ include_once "control.php";
     }
     else{
         echo "se inserto";
-        header ("Location: tiProcesador.html");
+        header ("Location: ../Vistas/tiProcesador.php");
     }

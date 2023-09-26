@@ -1,6 +1,6 @@
 <?php
 
-include_once "conexion.php";
+include_once "../conexion.php";
 $conexion = new Conexion();
 $con = $conexion->conectar();
 $sql = "SELECT * from equipos";
@@ -19,7 +19,7 @@ $respuesta= mysqli_query($con, $sql);
 
     <div>
         <h1>Equipos</h1>
-        <h3>Presione <a href="Añadires/equipos.html">Aqui</a> Para añadir equipos</h3>
+        <h3>Presione <a href="../Añadires/equipos.html">Aqui</a> Para añadir equipos</h3>
         <div>
         <table>
             <tr>
@@ -59,7 +59,7 @@ $respuesta= mysqli_query($con, $sql);
     </div>
 
     </div>
-    <div><a href="home.php" class=btn>Regresar</a></div>
+    <div><a href="../home.php" class=btn>Regresar</a></div>
     
 </body>
 </html>

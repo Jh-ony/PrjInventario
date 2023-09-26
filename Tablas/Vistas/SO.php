@@ -1,6 +1,6 @@
 <?php
 
-include_once "conexion.php";
+include_once "../conexion.php";
 $conexion = new Conexion();
 $con = $conexion->conectar();
 $sql = "SELECT * from sistemas_operativos";
@@ -19,7 +19,7 @@ $respuesta= mysqli_query($con, $sql);
 
     <div>
         <h1>SO's en uso</h1>
-        <h3>¿Falta un Sistema Operativo? <a href="Añadires/SO.html">Añadir SO</a></h3>
+        <h3>¿Falta un Sistema Operativo? <a href="../Añadires/SO.html">Añadir SO</a></h3>
         <div>
         <table>
             <tr>
@@ -41,7 +41,7 @@ $respuesta= mysqli_query($con, $sql);
     </div>
 
     </div>
-    <div><a href="home.php" class=btn>Regresar</a></div>
+    <div><a href="../home.php" class=btn>Regresar</a></div>
     
 </body>
 </html>
